@@ -1,0 +1,44 @@
+h1
+{
+    text-align: center;
+    color: skyblue;
+    font-size: 40px;
+    margin-top: 20%;
+}
+button
+{
+    color: skyblue;
+    font-size: 23px;
+    margin-left: 48%;
+}
+footer
+{
+    text-align: center;
+    margin-top: 200px;
+}
+@media only screen and (max-width: 480px)
+{
+    body
+    {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50%;
+    }
+    button
+    {
+        margin-left: 42%;
+    }
+
+}
+@media only screen and (max-width: 900px)
+{
+    body
+    {
+        margin-top: 35%;
+    }
+    footer
+    {
+        margin-top: 140px;
+    }
+}

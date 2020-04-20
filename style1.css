@@ -1,0 +1,54 @@
+body
+{
+    background-color: skyblue;
+}
+.choice-container
+{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 20px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 0.1rem black;
+    padding: 2rem;
+}
+.choice-container:hover
+{
+    cursor: pointer;
+    box-shadow: 1px 2px 0 black;
+    transform: translateX(-0.1rem);
+    transition: transform 150ms;
+}
+.choice-prefix
+{
+    padding: 1.0rem 1.5rem;
+    background-color: black;
+    color: white;
+}
+.choice-text
+{
+    padding: 1.0rem;
+    width: 100%;
+}
+footer
+{
+    text-align: center;
+}
+.correct
+{
+    background-color: green;
+}
+.incorrect
+{
+    background-color: red;
+}
+#hud
+{
+    display: flex;
+    justify-content: space-around;
+}
+.hud-prefix
+{
+    text-align: center;
+}

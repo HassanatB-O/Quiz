@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>End</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style2.css'>
+</head>
+<body>
+    <div class="container">
+        <div id="end" class="flex-center flex-column">
+            <h2>Your Total Score is:</h2>
+           <h1 id="finalScore"></h1>
+           <a href="game.html"><button>Play Again</button></a>
+        </div>
+    </div>
+    <script>
+        const mostRecentScore = localStorage.getItem('mostRecentScore');
+finalScore.innerText = mostRecentScore;
+    </script>
+</body>
+</html>
